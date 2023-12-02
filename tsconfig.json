@@ -17,7 +17,8 @@
       "_theme/*": ["./src/theme/*"],
       "_types/*": ["./src/@types/*"],
       "_utils/*": ["./src/utils/*"],
-      "_i18n/*": ["./src/i18/*"]
+      "_i18n/*": ["./src/i18/*"],
+      "_serviceConversaoReal": [".src/services/conversaoRealDolarService.js*"]
     }
   }
 }

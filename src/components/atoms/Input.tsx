@@ -9,7 +9,7 @@ type Props = IInputProps & {
 };
 
 export function Input({ errorMessage = null, isInvalid, ...rest }: Props) {
-  const invalid = !!errorMessage || isInvalid;
+  const invalid = isInvalid;
 
   return (
     <FormControl isInvalid={invalid} mb={4}>
